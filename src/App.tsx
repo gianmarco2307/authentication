@@ -72,7 +72,7 @@ function App() {
           <img src={user.avatar_url} alt="Avatar" />
         </div>
       ) : (
-        <button>Login con GitHub</button>
+        <button onClick={getAuth}>Login con GitHub</button>
       )}
     </div>
   );
